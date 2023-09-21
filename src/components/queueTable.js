@@ -2,7 +2,7 @@ import React from 'react'
 
 const queueTable = () => {
   return (
-    <div>queueTable</div>
+    <div className='customerTable'>QueueTable</div>
   )
 }
 

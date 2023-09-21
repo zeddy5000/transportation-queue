@@ -1,10 +1,10 @@
 
 import './App.css';
-
+import queueTable from './components/queueTable';
 function App() {
   return (
     <div className="App">
-        <h1>Transportation queue</h1>
+        <queueTable/>
     </div>
   );
 }
