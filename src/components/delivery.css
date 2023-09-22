@@ -1,0 +1,13 @@
+.deliveryCard{
+    border-bottom: 1px solid black;
+    max-width: 800px;
+    min-height: 50px;
+    margin-top: 1px;
+    display: flex;
+    padding-left: 10px;
+    
+}
+.deliveryCardItem{
+    width: calc(100%/4);
+
+}

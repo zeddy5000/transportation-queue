@@ -1,8 +1,9 @@
 import React from 'react'
+import Delivery from './Delivery'
 
 const Deliveries = () => {
   return (
-    <div>deliveries</div>
+    <Delivery/>
   )
 }
 
