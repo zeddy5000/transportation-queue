@@ -1,9 +1,9 @@
 import React from 'react'
 
-const delivery = () => {
+const Delivery = () => {
   return (
     <div>delivery</div>
   )
 }
 
-export default delivery
+export default Delivery

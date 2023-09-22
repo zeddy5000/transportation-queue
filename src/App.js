@@ -1,10 +1,10 @@
 
 import './App.css';
-import queueTable from './components/queueTable';
+import QueueTable from './components/QueueTable';
 function App() {
   return (
     <div className="App">
-        <queueTable/>
+        <QueueTable/>
     </div>
   );
 }

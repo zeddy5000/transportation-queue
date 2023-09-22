@@ -1,9 +1,9 @@
 import React from 'react'
 
-const deliveryPlaner = () => {
+const DeliveryPlaner = () => {
   return (
     <div>deliveryPlaner</div>
   )
 }
 
-export default deliveryPlaner
+export default DeliveryPlaner

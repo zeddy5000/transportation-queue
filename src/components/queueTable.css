@@ -1,0 +1,20 @@
+.customerTable{
+    border: 1px solid black;
+    max-width: 800px;
+    min-height: 200px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.tableHeader{
+    display: flex;
+    font-size: 10px;
+    font-weight: 200;
+    justify-content: space-between;
+    background-color: rgb(6, 6, 41);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
