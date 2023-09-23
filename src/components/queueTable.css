@@ -1,10 +1,13 @@
 .customerTable{
     border: 1px solid black;
     max-width: 800px;
-    min-height: 200px;
+    max-height: 200px;
+    overflow: auto;
     margin-top: 60px;
     display: flex;
     flex-direction: column;
+    margin-right: 60px;
+    border-radius: 10px;
    
 }
 .tableHeader{
@@ -13,8 +16,9 @@
     font-weight: 200;
     justify-content: space-between;
     color: rgb(14, 1, 1);
-    padding-left: 10px;
+    overflow: hidden;
     border-bottom: 3px solid black;
+    text-align: center;
     
 
 }

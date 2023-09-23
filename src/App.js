@@ -2,28 +2,25 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import QueueTable from './components/QueueTable';
-function App() {
-  const customers = [{
-    customerId : Math.random(10),
-    customerName : 'Isu Zeddy',
-    pickUpLocation : 'Yaba',
-    dropOffLocation : 'Agege',
-  },
-  {customerId : Math.random(10),
-  customerName : 'Augustine Eze',
-  pickUpLocation : 'Surulere',
-  dropOffLocation : 'Festac',
-}
-]
+import DeliveryPlaner from './components/DeliveryPlaner';
+import {DndProvider} from "react-dnd";
+import {HTML5Backend} from "react-dnd-html5-backend"
 
-  const [deliveryInfo, setDeliveryInfo] = useState([customers]);
+function App() {
+
+
+ 
  
 
 
   return (
-    <div className="App">
+    <DndProvider backend={HTML5Backend}>
+      <div className="App">
         <QueueTable />
-    </div>
+        <DeliveryPlaner/>
+      </div>
+    </DndProvider>
+   
   );
 }
 
