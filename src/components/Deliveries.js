@@ -1,9 +1,9 @@
 import React from 'react'
 import Delivery from './Delivery'
 
-const Deliveries = () => {
+const Deliveries = ({customerInfo}) => {
   return (
-    <Delivery/>
+    <Delivery customerInfo={customerInfo}/>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import './queueTable.css'
 import Deliveries from './Deliveries'
 
-const queueTable = () => {
+const queueTable = ({customerInfo}) => {
   return (
     <div className='customerTable'>
         <div className='tableHeader'>
@@ -11,7 +11,7 @@ const queueTable = () => {
         <div className='deliveryColumns'><h1>Pick-Up Location</h1></div>
         <div className='deliveryColumns'><h1>Drop-Off Location</h1></div>
         </div>
-        <Deliveries/>
+        <Deliveries customerInfo={customerInfo}/>
         
       </div>
   )
