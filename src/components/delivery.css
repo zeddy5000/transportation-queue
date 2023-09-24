@@ -7,12 +7,13 @@
     color: rgb(15, 0, 0);
     text-align: center;
     align-items: center;
+    background:transparent;
     
     
 }
 .deliveryCardItem{
     width: calc(100%/4);
-    background-color: rgb(252, 251, 253);
+   
     font-size: 16px;
     font-weight: 500;
   

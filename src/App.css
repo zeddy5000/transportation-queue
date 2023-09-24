@@ -12,8 +12,10 @@
 .App{
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+ 
   align-items: center;
+ /* background: url('../src/components/images/pexels-ian-16276469.jpg');*/
+  height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
